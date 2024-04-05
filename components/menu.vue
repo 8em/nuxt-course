@@ -16,6 +16,6 @@
 
 <style scoped>
 .link {
-    @apply  p-1 hover:bg-gray-200 transition
+    @apply  p-1 hover:bg-gray-200 transition dark:hover:bg-slate-400 dark:hover:text-slate-700
 }
 </style>
