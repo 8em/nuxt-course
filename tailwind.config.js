@@ -2,15 +2,13 @@
 // export default {
 //   content: [],
 //   theme: {
-//     darkMode: 'class', 
+//     darkMode: 'class',
 //     extend: {},
 //   },
-//   plugins: [],
+//   plugins: [require('@tailwindcss/typography')],
 // }
 
 module.exports = {
   darkMode: 'class',
-  plugins: [
-    require('@tailwindcss/typography')
-  ]
+  plugins: [require('@tailwindcss/typography')],
 }

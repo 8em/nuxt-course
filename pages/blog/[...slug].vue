@@ -1,11 +1,9 @@
 <template>
-    <article class="prose dark:prose-invert">
-        <ContentDoc />
-    </article>
+  <article class="prose max-w-none dark:prose-invert">
+    <ContentDoc />
+  </article>
 </template>
 
 <script setup>
-    const route = useRoute()
-
-    console.log(route.params.slug)
+const route = useRoute()
 </script>
