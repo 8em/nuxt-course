@@ -1,6 +1,10 @@
 <template>
   <article class="prose max-w-none dark:prose-invert">
-    <ContentDoc />
+    <ContentDoc v-slot="{ doc }">
+      {{ doc.body.toc.links }}
+      
+      <ContentRenderer :value="doc" />
+    </ContentDoc>
   </article>
 </template>
 
