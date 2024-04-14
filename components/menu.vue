@@ -1,6 +1,6 @@
 <template>
   <nav class="font-mono">
-    <ul class="flex space-x-4">
+    <ul class="flex flex-col md:flex-row md:space-x-4">
       <li>
         <NuxtLink class="link" to="/">Main</NuxtLink>
       </li>
@@ -19,6 +19,6 @@
 
 <style scoped>
 .link {
-  @apply p-1 hover:bg-gray-200 transition dark:hover:bg-slate-400 dark:hover:text-slate-700;
+  @apply p-1 hover:bg-gray-200 transition text-2xl md:text-base dark:hover:bg-slate-400 dark:hover:text-slate-700;
 }
 </style>
